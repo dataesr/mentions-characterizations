@@ -9,4 +9,4 @@ A correction of the mention type set the corrected type in field `type` and the 
 
 A correction of the characterization has its context in field `texts[0].text`. Then each characterization has its own entry in field `texts[0].class_attributes.classification`. And each of theses entries has it corrected value in field `value` and the previous value in field `previousValue`. As it is a human correction, it is supposed to be 100% sure, so score will always be 1.
 
-A `user` field is always provided but is encrypted to preserve user anonimity.
+A `user` field is always provided but is encrypted to preserve user anonymity.
